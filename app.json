@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "NoteApp",
+    "slug": "NoteApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "android": {
+        "package": "com.HillaryGroup.NoteApp"
+      },
+      "package": "com.seejanthenatural.NoteApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2bd4ea96-259b-4ff9-a29e-2bc1483d6f1c"
+      }
+    }
+  }
+}
